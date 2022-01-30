@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <accountmanager>
+            <general>
+                <enable>1</enable>
+                <!-- Default value set at 500 as per assessment brief -->
+                <threshold_value>500</threshold_value>
+            </general>
+        </accountmanager>
+    </default>
+</config>

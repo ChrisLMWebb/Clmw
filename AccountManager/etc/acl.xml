@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                <resource id="Clmw_AccountManager::accountmanager" title="Account Manager" sortOrder="51">
+                    <resource id="Clmw_AccountManager::post" title="Posts" sortOrder="10"/>
+                    <resource id="Clmw_AccountManager::accountmanager_configuration" title="Configuration" sortOrder="99" />
+                </resource>
+                <resource id="Magento_Backend::stores">
+                    <resource id="Magento_Backend::stores_settings">
+                        <resource id="Magento_Config::config">
+                            <resource id="Clmw_AccountManager::accountmanager_config" title="Account Manager"/>
+                        </resource>
+                    </resource>
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>

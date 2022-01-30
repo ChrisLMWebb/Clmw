@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Clmw_AccountManager::accountmanager" title="Account Manager" module="Clmw_AccountManager" sortOrder="51" resource="Clmw_AccountManager::accountmanager"/>
+        <add id="Clmw_AccountManager::accountmanager_configuration" title="Configuration" module="Clmw_AccountManager" sortOrder="99" parent="Clmw_AccountManager::accountmanager" action="adminhtml/system_config/edit/section/accountmanager" resource="Clmw_AccountManager::accountmanager_configuration"/>
+    </menu>
+</config>
+
